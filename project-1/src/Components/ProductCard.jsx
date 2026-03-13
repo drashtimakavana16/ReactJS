@@ -9,7 +9,7 @@ const ProductCard = ({data}) => {
       <div className="absolute z-10 top-6 left-8">
          <div className="flex items-center justify-between gap-48 ">
               <div className='bg-white/30 rounded-full px-3 py-1 text-sm font-bold text-white'>Best Seller</div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD-qF98iTTFNYNLLjMZSst-T1JzE67zY4mEw&s" alt="" className='rounded-full w-10 bg-white ' />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD-qF98iTTFNYNLLjMZSst-T1JzE67zY4mEw&s" alt="" className='rounded-full w-10  bg-white ' />
         </div>
       </div>
         <img src={data.photo} alt="" className='w-full h-auto object-cover rounded-4xl drop-shadow-2xl '/>
