@@ -46,14 +46,10 @@ const App = () => {
               <input type="submit" className='w-full bg-white text-black rounded-md font-semibold px-4 py-2 my-2 active:scale-95 active:bg-white/50 active:text-white' value='Add Task' />
             </form>
           </div>
-
-
-
-
         </div>
         {/* div for show all tasks */}
         <div className='lg:w-1/2 w-full h-screen lg:border-l-4 max-lg:border-t-2 border-dashed border-black bg-gray-200 flex flex-wrap items-center justify-center p-6 gap-6 overflow-auto'>
-          {Tasks.map((task,id) => {
+          {Tasks.map((task, id) => {
             return (
               <div className='w-full max-w-78 h-78 bg-white rounded-4xl shadow-2xl flex items-end justify-center p-4 relative' key={id}>
 
